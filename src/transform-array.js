@@ -35,7 +35,7 @@ function transform(arr) {
           break;
         case '--double-prev':
           if (arr[i-1] && ((i-1) !== (temp))) {
-            result.push(arr[i-1]);
+          result.push(arr[i-1]);
           }
           
       }
@@ -49,3 +49,5 @@ function transform(arr) {
 module.exports = {
   transform
 };
+
+
